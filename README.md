@@ -1,5 +1,5 @@
 # docker-dashboard
-Simple terminal dashboard for Docker
+Simple terminal dashboard for Docker. Works with local and remote machines.
 
 ![Screenshot](screenshot.jpg "Screenshot")
 
@@ -8,8 +8,12 @@ Simple terminal dashboard for Docker
     $ brew install docker tmux watch
     $ pip-python3 install tmuxomatic
     ```
-1. Run from inside Tmux. Edit docker.mux to customize
+1. Run from inside Tmux. Edit docker.mux to customize.
     ```bash
     $ tmux
     $ tmuxomatic docker.mux
+    ```
+1. See azure.mux for how to adjust your environment for a remote Docker machine.
+    ```bash
+    $ tmuxomatic azure.mux
     ```
