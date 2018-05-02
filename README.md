@@ -8,6 +8,11 @@ Simple terminal dashboard for Docker. Works with local and remote machines.
     $ brew install docker tmux watch
     $ pip-python3 install tmuxomatic
     ```
+1. Ensure that sort_with_header.sh is executable and in your PATH.
+    ```bash
+    $ chmod +x sort_with_header.sh
+    $ ln -s "$(pwd)/sort_with_header.sh" "/your/path"
+    ```
 1. Run from inside Tmux. Edit docker.mux to customize.
     ```bash
     $ tmux
