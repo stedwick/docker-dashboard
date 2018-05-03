@@ -1,5 +1,5 @@
 # docker-dashboard
-Simple terminal dashboard for Docker. Works with local and remote machines.
+Simple terminal dashboard for Docker. Works with local and remote machines. 
 
 ![Screenshot](screenshot.jpg "Screenshot")
 
