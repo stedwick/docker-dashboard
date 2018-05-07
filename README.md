@@ -3,9 +3,9 @@ Simple terminal dashboard for Docker. Works with local and remote machines.
 
 ![Screenshot](screenshot.jpg "Screenshot")
 
-1. Prerequisites: [Docker](https://www.docker.com), [Tmux](https://github.com/tmux/tmux#readme), [Tmuxomatic](https://github.com/oxidane/tmuxomatic), [Watch](http://www.linfo.org/watch.html)
+1. Prerequisites: [Docker](https://www.docker.com), [Tmux](https://github.com/tmux/tmux#readme), [Tmuxomatic](https://github.com/oxidane/tmuxomatic), [Watch](http://www.linfo.org/watch.html), [Ack](https://beyondgrep.com)
     ```bash
-    $ brew install docker tmux watch
+    $ brew install docker tmux watch ack
     $ pip-python3 install tmuxomatic
     ```
 1. Ensure that sort_with_header.sh is executable and in your PATH.
